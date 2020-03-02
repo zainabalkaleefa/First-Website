@@ -1,0 +1,220 @@
+
+body{
+    background-color: #eae9f7;
+    margin:0;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(15, 36, 92);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    position:fixed;
+    width:100%;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(179, 177, 177);
+  }
+  
+  /* ----------Home Page---------*/
+  .Tech
+  {
+    text-align:center;
+    width:100%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 600%;
+    position: relative;
+    top: 40%;
+    margin:0px;
+     
+  }
+  
+  #image
+    {
+    background-image: url("https://i0.wp.com/www.aimvalley.com/wp-content/uploads/iStock-537331536-e1523017831993.jpg?fit=1200%2C800&ssl=1");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 500px; 
+    }
+  
+  
+  #text
+    {
+    margin:10px;
+    height: 500px;
+    margin-top: 10%;
+    }
+  
+  
+  .left
+    {
+    width:40%;
+    background-color: #eae9f7;
+    float: left;
+    padding: 2%;
+    margin-left: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 125%;
+    }
+   
+  .right{
+    width:40%;
+    height: 50%;
+    background-repeat: no-repeat;
+    float: right;
+    background-color: #eae9f7;
+    padding: 3%;
+    margin-left:  auto;
+    margin-right: auto;
+  
+  
+  }
+  #program{
+    
+  background-color: #eae9f7;
+  margin-top:0%;
+  padding: 5% 15%;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 130%;
+  
+  
+  }
+  
+  
+  /* --------------who we are----------------*/
+  #intro{
+  
+    background-image: url("  https://www.techreturners.com/static/banner-case-e300dfa9792fdc1ed9a8c512064839b6.jpg  ");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 500px; 
+  }
+  
+  .container {
+    padding: 0 0px;
+  }
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    background-color: #eae9f7;
+    text-align: left;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  
+  #box
+  {
+    float:right;  
+    background: #eae9f7; 
+    width:27%; 
+    height:400px;
+    padding: 2% 2%;
+    margin: 1%;
+  } 
+  
+  
+  #box1
+  {
+    float:right;  
+    background: #eae9f7; 
+    width:25%; 
+    height:350px;
+    padding: 3% 11%;
+    margin: 1%;
+  } 
+  /* ----------contact us---------*/
+  #map {
+    
+    background-color: #eae9f7;
+    float: left;
+    width: 40%;
+    padding-left:8%;
+    margin-top: 7%;
+    }
+  
+  #contact{
+  
+    background-image: url("https://inettravels.com/wp-content/uploads/2018/05/contactus_hd_img.jpg ");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 500px;
+    }
+  
+  
+  #contactus{
+    
+    background-color: #eae9f7;
+    float: left;
+    width: 30%;
+    padding-left: 15%;
+    margin-top: 7%;
+  }
+     
+  #form
+  {
+    
+    font-size: 20px;
+    float: left;
+    width:50%;
+    margin-top: 7%;
+    margin-left: 25%;
+    position: static;
+    background-color: #c4c7dd;
+    margin-bottom: 5%;
+    
+  }
+  
+  input[type=submit] {
+    background-color: rgb(72, 92, 146);
+    color: white;
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-bottom: 10px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #6d7dc2;
+  }
+  input[type=text], textarea {
+    width: 80%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 30px;
+    
+  }
+   
